@@ -15,6 +15,7 @@ spec:
     spec:
       containers:
         - name: back-end
-          image: 884692191577.dkr.ecr.us-west-2.amazonaws.com/pavanregistry:latest
+          image: 884692191577.dkr.ecr.us-east-2.amazonaws.com/pavanregistry:latest
           ports:
             - containerPort: 3000
+           
