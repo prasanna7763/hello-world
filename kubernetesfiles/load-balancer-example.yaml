@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app.kubernetes.io/name: load-balancer-example
-  name: hello-world
+  name: hello-world-example
   namespace: java-app
 spec:
   replicas: 5
@@ -17,6 +17,5 @@ spec:
     spec:
       containers:
       - image: 884692191577.dkr.ecr.us-west-2.amazonaws.com/pavanregistry
-        name: hello-world
         ports:
         - containerPort: 8080
