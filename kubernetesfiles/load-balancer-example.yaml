@@ -17,5 +17,6 @@ spec:
     spec:
       containers:
       - image: 884692191577.dkr.ecr.us-west-2.amazonaws.com/pavanregistry
+        name: hello-world-example
         ports:
         - containerPort: 8080
